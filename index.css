@@ -7,14 +7,35 @@ body{
     align-items: center;
     
 }
-.article,.Extensions{
+.article{
 width:250px;
 background-color: blueviolet;
+border:1px solid white;
+border-radius: 10px;
+padding: 10px;
+padding:20px;
 }
 .articles{
     display: grid;
     grid-template-columns:1fr;
     gap: 1px;
+}
+.Extensions{
+width:250px;
+background-color: blueviolet;
+border:1px solid white;
+border-radius: 10px;
+padding: 10px;
+font-size: 18px;
+}
+.Extensions-Lists{
+font-size: 20px;
+color: white;
+}
+.nav-list{
+    font-size: 17px;
+    display: flex;
+    gap:8px;
 }
 @media(min-width:700px){
     .articles{
@@ -22,26 +43,19 @@ background-color: blueviolet;
         width:80%;
         margin: 70px;
         gap: 10px;
+        
     }
     .Extensions{
     width:80%;
     margin:70px;
 }   
 .flex{
+    display: flex;
+    justify-content: space-between;
     margin:70px;
-    width: 80%;
-    justify-content: space-bet
+    width: 90%;
 } 
-.nav-list{
-    justify-content: flex-end;
 }
-};
-.flex{
-    display: flex;
-}
-.nav-list{
-    display: flex;
-    gap:8px;
-}
+
 
 
