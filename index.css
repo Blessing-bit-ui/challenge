@@ -30,21 +30,18 @@ background-color: blueviolet;
 .flex{
     margin:70px;
     width: 80%;
+    justify-content: space-bet
 } 
 .nav-list{
-    position: relative;
     justify-content: flex-end;
 }
-}
+};
 .flex{
-    width:100px;
-    display:flex;
-    flex-wrap: 1;
+    display: flex;
 }
 .nav-list{
     display: flex;
-    gap:2px;
+    gap:8px;
 }
-ul{
-    list-style: none;
-}
+
+
