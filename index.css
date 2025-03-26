@@ -19,7 +19,7 @@ background-color: blueviolet;
 @media(min-width:700px){
     .articles{
         grid-template-columns: repeat(3,1fr);
-        width:400px;
+        width:80%;
         margin: 70px;
         gap: 10px;
     }
@@ -28,19 +28,23 @@ background-color: blueviolet;
     margin:70px;
 }   
 .flex{
-    margin: 70px;
+    margin:70px;
+    width: 80%;
 } 
 .nav-list{
+    position: relative;
     justify-content: flex-end;
 }
 }
-
 .flex{
-    width:250px;
+    width:100px;
     display:flex;
-    justify-content:space-between;
+    flex-wrap: 1;
 }
 .nav-list{
     display: flex;
     gap:2px;
+}
+ul{
+    list-style: none;
 }
