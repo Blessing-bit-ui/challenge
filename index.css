@@ -1,0 +1,27 @@
+body{
+   background-color:hsl(195, 96%, 10%);
+
+}
+.container{
+    margin: 150px;
+    
+}
+.article{
+width:250px;
+background-color: blueviolet;
+
+}
+.articles{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 1px;
+}
+@media(min-width:700px){
+    .articles{
+        grid-template-columns: repeat(3,1fr);
+        width:400px;
+        margin: 70px;
+        gap: 10px;
+
+    }
+}
