@@ -3,8 +3,9 @@ body{
 
 }
 .container{
-    margin: 150px;
+    margin:100px;
     align-items: center;
+    color: white;
     
 }
 .article{
@@ -43,12 +44,14 @@ color: white;
         width:80%;
         margin: 70px;
         gap: 10px;
-        
     }
     .Extensions{
     width:80%;
     margin:70px;
 }   
+.Extensions-Lists{
+font-size: 30px;
+}
 .flex{
     display: flex;
     justify-content: space-between;
