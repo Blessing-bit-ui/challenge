@@ -4,12 +4,12 @@ body{
 }
 .container{
     margin: 150px;
+    align-items: center;
     
 }
-.article{
+.article,.Extensions{
 width:250px;
 background-color: blueviolet;
-
 }
 .articles{
     display: grid;
@@ -22,6 +22,25 @@ background-color: blueviolet;
         width:400px;
         margin: 70px;
         gap: 10px;
-
     }
+    .Extensions{
+    width:80%;
+    margin:70px;
+}   
+.flex{
+    margin: 70px;
+} 
+.nav-list{
+    justify-content: flex-end;
+}
+}
+
+.flex{
+    width:250px;
+    display:flex;
+    justify-content:space-between;
+}
+.nav-list{
+    display: flex;
+    gap:2px;
 }
