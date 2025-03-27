@@ -95,4 +95,20 @@ font-size: 30px;
     border-radius: 5px;
     margin-top: 40px;
 }
-
+.myButton{
+    justify-self:center;
+}
+.darkTheme{
+    color:white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+.darkTheme:hover{
+background-color: red;
+}
+.colors{
+    background-color:red;
+    color:black;
+}
